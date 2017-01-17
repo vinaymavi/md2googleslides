@@ -43,6 +43,7 @@ const NO_OP = function() {};
  */
 function extractSlides(markdown, stylesheet) {
     let tokens = parseMarkdown(markdown);
+    console.log(tokens);
     let css = nativeCSS.convert(stylesheet);
     let env = {
         slides: [],
