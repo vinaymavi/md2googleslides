@@ -54,6 +54,7 @@ function parseMarkdown(markdown) {
 /**
  * @param {string} markdown
  * @returns {Array.<stirng>}
+ * TODO attr and other validation testing is pending.
  */
 function slidesMarkdown(markdown){
     let mdArr = markdown.split(SLIDE_SEPARATOR);

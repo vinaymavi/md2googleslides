@@ -1,5 +1,4 @@
 'use strict';
-
 const chai = require('chai');
 chai.use(require('chai-as-promised'));
 const expect = chai.expect;
@@ -19,6 +18,6 @@ describe('extractSlides', function() {
         const slides = extractSlides(markdown);
         it('should return two slide', function() {
             return expect(slides).to.have.length(2);
-        });  
+        });        
     });    
 });
