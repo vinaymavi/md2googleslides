@@ -29,7 +29,7 @@ const SLIDE_SEPARATOR = "---";
  */
 function extractSlides(markdown) {
     let slides = [];
-    let mdArr = slidesMarkdown(markdown);    
+    let mdArr = slidesMarkdown(markdown);
     mdArr.forEach(function(slideMarkdown){
         let html = parseMarkdown(slideMarkdown);
         slides.push(html);        

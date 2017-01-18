@@ -4,8 +4,8 @@
  */
 const http = require("http");
 const open = require("open");
-const HEADER = '<html>\n<head>\n<linkrel="stylesheet"href="http://lab.hakim.se/reveal-js/css/reveal.css">\n<linkrel="stylesheet"href="http://lab.hakim.se/reveal-js/css/theme/black.css">\n</head>\n<body>\n<divclass="reveal">\n<divclass="slides">'
-const FOOTER = '</div></div><scriptsrc="http://lab.hakim.se/reveal-js/js/reveal.js"></script><script>Reveal.initialize();</script></body></html>';
+const HEADER = '<html>\n<head>\n<link rel="stylesheet" href="http:\/\/lab.hakim.se\/reveal-js\/css\/reveal.css">\n<link rel="stylesheet" href="http:\/\/lab.hakim.se\/reveal-js\/css\/theme\/black.css">\n</head>\n<body>\n<div class="reveal">\n<div class="slides">'
+const FOOTER = '</div></div><script src="http:\/\/lab.hakim.se\/reveal-js\/js\/reveal.js"></script><script>Reveal.initialize();</script></body></html>';
 const SLIDE_START = "<section>";
 const SLIDE_END = '</section>';
 const PORT = 4500;

@@ -1,5 +1,5 @@
 {
-  "name": "md2gslides",
+  "name": "md2reveal",
   "version": "0.1.1",
   "description": "Convert Markdown to Google Slides",
   "main": "index.js",
@@ -20,15 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//googlesamples/md2googleslides"
+    "url": "https://github.com/vinaymavi/md2reveal.jsSlides"
   },
   "keywords": [
     "markdown",
-    "google",
+    "reveal",
     "slides"
   ],
-  "author": "Steven Bazyl",
-  "license": "Apache-2.0",
+  "author": "vinaymavi",
+  "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.7",
     "babel-polyfill": "~6.16.0",
@@ -75,6 +75,6 @@
     "webpack": "^1.14.0"
   },
   "bin": {
-    "md2gslides": "bin/md2gslides.js"
+    "md2reveal": "bin/md2reveal.js"
   }
 }

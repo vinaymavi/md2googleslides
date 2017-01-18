@@ -1,5 +1,3 @@
----
-
 # This is a title slide
 
 ## Your name here
@@ -47,8 +45,6 @@ This is the body
 
 This is the *left* column
 
-{.column}
-
 This is the *right* column
 
 ---
@@ -90,12 +86,3 @@ function hello() {
 }
 ```
 
----
-# Slides can have tables
-
-Animal | Number
--------|--------
-Fish   | 142 million
-Cats   | 88 million
-Dogs   | 75 million
-Birds  | 16 million
