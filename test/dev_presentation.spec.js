@@ -19,4 +19,8 @@ describe("Dev Server", function () {
     it("Slides created.", function () {
         expect($('section').length).to.be.equal(2);
     });
+    it("Run Slide",function(){
+        devPresentation.run(3000,presentationHtml);
+        expect(1).to.be.equal(1);
+    });
 });

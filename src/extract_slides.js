@@ -62,8 +62,7 @@ function slidesMarkdown(markdown){
         if(x.trim().length){
             return x;
         }
-    });
-    console.log(mdArr);
+    });    
     return mdArr;
 }
 
